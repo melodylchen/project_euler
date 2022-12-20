@@ -3,8 +3,8 @@
 # Find the sum of all the multiples of 3 or 5 below 1000'####
 i = 0
 sum_of_multiples = 0
-while i<5:
-    if i%3 | i%5 == 0:
+while i<1000:
+    if i%3 == 0 or i%5 == 0:
         sum_of_multiples += i
     i += 1
 print(sum_of_multiples)
