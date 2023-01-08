@@ -5,6 +5,8 @@
 # find the sum of the even-valued terms.
 # Solution is 4613732
 
+#TODO: redo this using a more elegant solution
+
 fibonnaci_numbers = [1, 2]
 fibonnaci_evens = [2]
 # get array of fibonnacci sequence
@@ -17,5 +19,3 @@ while (fibonnaci_numbers[i-1] + fibonnaci_numbers[i-2]) < 4000000:
     i += 1
 
 print(sum(fibonnaci_evens))
-
-
