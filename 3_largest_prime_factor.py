@@ -7,8 +7,7 @@
 #find the largest prime factor
 
 
-# This is a really terrible solution but it kind of works. For some reason the answer is before the
-# last element of the array output - will debug later
+# This is incorrect. Need to fix.
 def largest_prime_factor(integer):
     largest_prime_factor = 1 #Default 1 for the number 1
     list_of_factors = [1]
